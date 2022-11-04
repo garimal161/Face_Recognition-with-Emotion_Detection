@@ -19,19 +19,6 @@ na=""
 count=0
 model1=load_model(r'/home/sageiac/Desktop/liveness.model')
 
-def gender(frame):
-    padding = 20
-    face, confidence = cv.detect_face(frame)
-    for idx, f in enumerate(face):        
-        (startX,startY) = max(0, f[0]-padding), max(0, f[1]-padding)
-        (endX,endY) = min(frame.shape[1]-1, f[2]+padding), min(frame.shape[0]-1, f[3]+padding)
-        face_crop = np.copy(frame[startY:endY, startX:endX]) 
-        (label, confidence) = cv.detect_gender(face_crop)
-        idx = np.argmax(confidence)
-        label = label[::-1][idx]
-        label = "{}: {:.2f}%".format(label, confidence[idx] * 100)
-       
-        return label
 def name():
    
     
