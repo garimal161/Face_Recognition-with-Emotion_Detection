@@ -1,6 +1,6 @@
 # Face_Recognition-with-Emotion_Detection
 
-This is a Facial-recognition project which will also classify gender
+This is a Facial-recognition project which will also classify Emotions
 
 # Benefits - 
 As we all know that many Machine-Learnig based project reqiures altest 2-3 similar kind of images to train & ofcourse a lot of time to train all the things BUT here it requires just one good* image of the person and thats all needed for recognition. 
