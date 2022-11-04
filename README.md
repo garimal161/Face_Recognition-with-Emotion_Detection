@@ -33,23 +33,20 @@ import using - import pandas as pd / import cvlib
 install using - pip install datetime
 import using - from datetime import datetime
 
-6. tkinter
-install using - pip install tinkter
-import using - from tkinter import *
 
-7. tesorflow 2.0 (If GPU is used Verson of CUDA can create exceptions, so try to install the same version on tensorflow_gpu)
+6. tesorflow 2.0 (If GPU is used Verson of CUDA can create exceptions, so try to install the same version on tensorflow_gpu)
  install using - pip install tensorflow (For GPU users use - pip install tensorflow_gpu
  import using - import tensorflow as tf
  
-8. numpy
+7. numpy
 install using - pip install numpy
 import using - import numpy as np
 
-9. deepface
+8. deepface
 install using - pip install deepface
 import using - from deepface import DeepFace
 
-10. Harcascade (for Frontal face)
+9. Harcascade (for Frontal face)
 download using - github: https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml
 
 # Important Functuions used
