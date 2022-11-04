@@ -54,7 +54,7 @@ download using - github: https://github.com/opencv/opencv/blob/master/data/haarc
 
 # Important Functuions used
 
-1. "Emotion" : To detect Emotion of the person detected in the frame
+1. "Emotion" : To detect Emotion of the person detected in the frame  ###line 281 of Garima.py file is to detect and display emotions of persons.
 
 2. "update" : This function is used to update face records
 
